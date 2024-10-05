@@ -53,7 +53,7 @@ function App({ user, signOut }) {
 
   const formOverride = {
     "Add Pet": {
-      children: updatePet ? "Update Pet" : "Add Pet",
+      children: updatePet ? "Update Pet" : "Add pet",
     },
     TextField29766922: {
       value: name,
