@@ -30,7 +30,7 @@ export default function Pets(props) {
       isSearchable="true"
       isPaginated={true}
       searchPlaceholder="Search..."
-      itemsPerPage={6}
+      itemsPerPage={8}
       templateColumns="1fr 1fr 1fr 1fr"
       autoFlow="row"
       alignItems="stretch"
