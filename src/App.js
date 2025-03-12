@@ -145,7 +145,7 @@ function App({ user, signOut }) {
         )}
         {showForm && (
           <>
-            <div className="modal-overlay" />
+            <div className="modal-overlay" onClick={() => setShowForm(false)} />
             <div className="modal-add-pet">
               <AddPet
                 pet={updatePet}
