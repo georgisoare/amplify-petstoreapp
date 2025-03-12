@@ -55,7 +55,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 600px; /* Adjust to preferred width */
-  max-height: 90vh; /* Ensure the modal doesn’t exceed 80% of the viewport height */
+  max-height: 100vh; /* Ensure the modal doesn’t exceed 80% of the viewport height */
   background-color: white;
   padding: 20px;
   z-index: 1000;

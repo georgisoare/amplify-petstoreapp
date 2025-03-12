@@ -28,7 +28,7 @@ export default function PetFooter(props) {
         display="flex"
         gap="32px"
         direction="column"
-        width="1440px"
+        width="100%"
         height="unset"
         justifyContent="flex-start"
         alignItems="center"
