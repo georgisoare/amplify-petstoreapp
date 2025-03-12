@@ -56,22 +56,22 @@ function App({ user, signOut }) {
     "Add Pet": {
       children: updatePet ? "Update Pet" : "Add pet",
     },
-    TextField29766922: {
+    textFieldTwoNineSevenSixSixNineTwoTwoValue: {
       value: name,
     },
-    TextField29766923: {
+    textFieldTwoNineSevenSixSixNineTwoThreeValue: {
       value: age,
     },
-    TextField29766924: {
+    textFieldTwoNineSevenSixSixNineTwoFourValue: {
       value: breed,
     },
-    TextField38564063: {
+    textFieldThreeEightFiveSixFourZeroSixThreeValue: {
       value: about,
     },
-    TextField38564070: {
+    textFieldThreeEightFiveSixFourZeroSevenZeroValue: {
       value: color,
     },
-    TextField38564077: {
+    textFieldThreeEightFiveSixFourZeroSevenSevenValue: {
       value: image,
     },
     image: {
