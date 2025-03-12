@@ -17,7 +17,7 @@ import { schema } from "../models/schema";
 import { Button, Flex, Image, Text, TextField } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function AddPet(props) {
-  const { pet, prop, overrides, ...rest } = props;
+  const { prop, pet, overrides, ...rest } = props;
   const [
     textFieldTwoNineSevenSixSixNineTwoTwoValue,
     setTextFieldTwoNineSevenSixSixNineTwoTwoValue,

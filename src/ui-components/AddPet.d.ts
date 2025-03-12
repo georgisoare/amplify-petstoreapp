@@ -39,8 +39,8 @@ export declare type AddPetOverridesProps = {
     Button38564085?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type AddPetProps = React.PropsWithChildren<Partial<FlexProps> & {
-    pet?: Pet;
     prop?: Pet;
+    pet?: Pet;
 } & {
     overrides?: AddPetOverridesProps | undefined | null;
 }>;
