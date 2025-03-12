@@ -35,12 +35,12 @@ export default function AddPet(props) {
     setTextFieldThreeEightFiveSixFourZeroSixThreeValue,
   ] = useStateMutationAction("");
   const [
-    textFieldThreeEightFiveSixFourZeroSevenSevenValue,
-    setTextFieldThreeEightFiveSixFourZeroSevenSevenValue,
-  ] = useStateMutationAction("");
-  const [
     textFieldThreeEightFiveSixFourZeroSevenZeroValue,
     setTextFieldThreeEightFiveSixFourZeroSevenZeroValue,
+  ] = useStateMutationAction("");
+  const [
+    textFieldThreeEightFiveSixFourZeroSevenSevenValue,
+    setTextFieldThreeEightFiveSixFourZeroSevenSevenValue,
   ] = useStateMutationAction("");
   const buttonTwoNineSevenSixSixNineTwoSixOnClick = useDataStoreCreateAction({
     fields: {
@@ -48,8 +48,8 @@ export default function AddPet(props) {
       age: textFieldTwoNineSevenSixSixNineTwoThreeValue,
       breed: textFieldTwoNineSevenSixSixNineTwoFourValue,
       about: textFieldThreeEightFiveSixFourZeroSixThreeValue,
-      image: textFieldThreeEightFiveSixFourZeroSevenSevenValue,
-      color: textFieldThreeEightFiveSixFourZeroSevenZeroValue,
+      image: textFieldThreeEightFiveSixFourZeroSevenZeroValue,
+      color: textFieldThreeEightFiveSixFourZeroSevenSevenValue,
     },
     model: Pet,
     schema: schema,

@@ -31,9 +31,9 @@ export default function Pets(props) {
       isPaginated={true}
       searchPlaceholder="Search..."
       itemsPerPage={6}
-      templateColumns="1fr 1fr 1fr"
+      templateColumns="1fr 1fr 1fr 1fr"
       autoFlow="row"
-      alignItems="top"
+      alignItems="stretch"
       justifyContent="stretch"
       items={items || []}
       {...getOverrideProps(overrides, "Pets")}
