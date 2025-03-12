@@ -192,7 +192,6 @@ function App({ user, signOut }) {
         />
         {/* <PetProfile overrides={petProfileOverride} /> */}
       </header>
-      <PetFooter width={"100%"} />
     </div>
   );
 }
